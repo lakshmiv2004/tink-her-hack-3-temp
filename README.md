@@ -115,6 +115,9 @@ For Hardware:
 
 ### Project Demo
 # Video
+[https://www.loom.com/share/3558d5c0d1a94e74b4bfa847af5c98fe
+](https://www.loom.com/share/3558d5c0d1a94e74b4bfa847af5c98fe
+)
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
