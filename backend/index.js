@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb+srv://lakshmivchaithanya:KHJ5oj3vnDmgJzpK@cluster0.n8wia.mongodb.net/?retryWrites=true&w=majority&appName=cluster0", { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect("mongodb+srv://lakshmivchaithanya:KHJ5oj3vnDmgJzpK@cluster0.n8wia.mongodb.net/foodapp?retryWrites=true&w=majority&appName=cluster0", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.error("Error connecting to MongoDB:", err));
 

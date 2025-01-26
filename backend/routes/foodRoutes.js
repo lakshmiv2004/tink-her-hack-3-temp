@@ -31,8 +31,12 @@ router.post("/", async (req, res) => {
 });
 
 
+router.get('/', async (req, res) => {
+  res.status(200).json({message:"succ"})
+})
+
 // GET: Get all food details
-router.get("/", async (req, res) => {
+router.get("/getallfood", async (req, res) => {
   try {
     const foodDetails = await Food.find();
     res.status(200).json(foodDetails);
