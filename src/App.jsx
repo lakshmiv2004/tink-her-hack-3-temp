@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import './App.css'; // Import any styles
-import RoleSelection from './components/hello';
+import RoleSelection from './components/Hello';
 import DonorPage from './components/DonorPage';
 import ReceiverPage from './components/RecieverPage';
-import FoodDetailsPage from './components/food';
-import PickupDetailsPage from './components/address';
-import ReceiverArrivalPage from './components/details';
-import FoodDonationConfirmationPage from './components/confirmation';
+import FoodDetailsPage from './components/Food';
+import PickupDetailsPage from './components/Address';
+import ReceiverArrivalPage from './components/Details';
+import FoodDonationConfirmationPage from './components/Confirmation';
 import  {FoodProvider}  from "./components/FoodContext";
 function App() {
   return (
